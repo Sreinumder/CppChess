@@ -1,26 +1,26 @@
-﻿# cppchess
+﻿# Cppchess
  A very basic cpp TUI chess game.
  
 ## Controls
-- use numpad for directions with <kbd>5</kbd> as enter or select square
+- use numpad for directions with 5 as enter or select square
 <pre>
-<kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd>  ↖ ↑ ↗ 
-<kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd>  ← ⏎ → 
-<kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd>  ↙ ↓ ↘ 
+7 8 9  ↖ ↑ ↗ 
+4 5 6  ← ⏎ → 
+1 2 3  ↙ ↓ ↘ 
 </pre>
-
-- Alternatively for player 2, first press t''' to toggle two control mode\
+- Alternatively for player 2, t for toggle two control mode
 <pre>
 q w e    ↖ ↑ ↗
 a s d f  ← ↓ → ⏎
 z   c    ↙   ↘
 </pre>
-
-- '''
+- u and i to undo and redo the moves
+- h for help
+- r for redraw or reload
 
 ## Features
 - supports all the basic rules like castling, en-passant etc properly.
-- move log implementation
+- move log implementation with the ability to undo and redo and prune move tree
 - two player keyboard support
 
 ## To-Do
