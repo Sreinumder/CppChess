@@ -1,6 +1,13 @@
 ﻿# cppchess
- A basic chess game developed on cpp.
+ A very basic cpp TUI chess game.
  
+## Controls
+use numpad for directions like
+
+7 8 9  ↖ ↑ ↗
+4 5 6  ← ⏎ → 
+1 2 3  ↙ ↓ ↘
+
 ## Features
 - supports all the basic rules like castling, en-passant etc properly.
 - move log implementation
@@ -14,11 +21,11 @@
 
 ## screenshots:
 ![game](assets/game.png)
-[release](https://github.com/Sreinumder/cppchess/releases/latest)
 
 ## Installation
 ### On Windows
 please use! [windows terminal](https://github.com/microsoft/terminal) for proper text rendering.
+Then, you can download [Latest Release](https://github.com/Sreinumder/cppchess/releases/latest) and test it.
 
-### On Linux
+### On Linux or MacOs
 Not supported yet :(
