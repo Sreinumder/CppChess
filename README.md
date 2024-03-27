@@ -2,7 +2,7 @@
  A very basic cpp TUI chess game implementation.
  
 ## Controls
-- use numpad for directions with 5 as enter or select square
+- Use numpad for directions with 5 as enter or select square
 <pre>
 7 8 9  ↖ ↑ ↗ 
 4 5 6  ← ⏎ → 
