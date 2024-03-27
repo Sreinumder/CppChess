@@ -4,9 +4,9 @@
 ## Controls
 use numpad for directions like
 
-7 8 9  ↖ ↑ ↗
-4 5 6  ← ⏎ → 
-1 2 3  ↙ ↓ ↘
+7 8 9  ↖ ↑ ↗ \
+4 5 6  ← ⏎ → \
+1 2 3  ↙ ↓ ↘ \
 
 ## Features
 - supports all the basic rules like castling, en-passant etc properly.
