@@ -34,8 +34,8 @@ z   c    ↙   ↘
 
 ## Installation
 ### On Windows
-please use! [windows terminal](https://github.com/microsoft/terminal) for proper text rendering.
-Then, you can download [Latest Release](https://github.com/Sreinumder/cppchess/releases/latest) and test it.
+Please use! [Windows Terminal](https://github.com/microsoft/terminal) for proper Text rendering.
+Then, You can Download the [Latest Release](https://github.com/Sreinumder/cppchess/releases/latest) and test it.
 
 ### On Linux or MacOs
 Not supported yet :(
