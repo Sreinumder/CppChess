@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\rose\projects\repos\chessThing\chessThing\main.cpp(302,21): warning C4101: 'dy': unreferenced local variable
+C:\rose\projects\repos\chessThing\chessThing\main.cpp(413,28): warning C4018: '>=': signed/unsigned mismatch
+C:\rose\projects\repos\chessThing\chessThing\main.cpp(944,52): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\rose\projects\repos\chessThing\chessThing\main.cpp(946,52): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\rose\projects\repos\chessThing\chessThing\main.cpp(952,143): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  chessThing.vcxproj -> C:\rose\projects\repos\chessThing\x64\Debug\chessThing.exe

@@ -1,0 +1,410 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'chessPiece::piece' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 5,
+                  "endLine": 97,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "chessPiece::{ctor}",
+                  "decoratedName": "??0chessPiece@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "chessPiece::piece"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'chessPiece::color' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 5,
+                  "endLine": 97,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "chessPiece::{ctor}",
+                  "decoratedName": "??0chessPiece@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "chessPiece::color"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'chessPiece::y' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 5,
+                  "endLine": 97,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "chessPiece::{ctor}",
+                  "decoratedName": "??0chessPiece@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "chessPiece::y"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'chessPiece::x' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 5,
+                  "endLine": 97,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "chessPiece::{ctor}",
+                  "decoratedName": "??0chessPiece@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "chessPiece::x"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'move::promotedTo' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                },
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 5,
+                  "endLine": 126,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "move::{ctor}",
+                  "decoratedName": "??0move@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "move::promotedTo"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'move::promotedTo' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                },
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 5,
+                  "endLine": 127,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "move::{ctor}",
+                  "decoratedName": "??0move@@QEAA@UchessPiece@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "move::promotedTo"
+          }
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '40' is out of valid index range '0' to '39' for possibly stack allocated buffer 'this->name'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                },
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 9,
+                  "endLine": 202,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "player::{ctor}",
+                  "decoratedName": "??0player@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'this->name'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                },
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 9,
+                  "endLine": 202,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "player::{ctor}",
+                  "decoratedName": "??0player@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 201,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 202,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'this->name[40]', (writable range is 0 to 39)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                },
+                "region": {
+                  "startLine": 947,
+                  "startColumn": 24,
+                  "endLine": 947,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "chessBoard::HUD",
+                  "decoratedName": "?HUD@chessBoard@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                },
+                "region": {
+                  "startLine": 947,
+                  "startColumn": 24,
+                  "endLine": 947,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "chessBoard::HUD",
+                  "decoratedName": "?HUD@chessBoard@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'key::keys' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 1,
+                  "endLine": 16,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "key::{ctor}",
+                  "decoratedName": "??0key@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "key::keys"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32535.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Lenovo/source/repos/chessThing/chessThing/main.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "cf0b828d93d55ad971c3329c63feed7beb7580d18813c0a3031bf5db4469f3bf"
+          }
+        }
+      ]
+    }
+  ]
+}
