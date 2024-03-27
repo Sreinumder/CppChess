@@ -2,19 +2,21 @@
  A very basic cpp TUI chess game.
  
 ## Controls
-- use numpad for directions like
-'''
-7 8 9  ↖ ↑ ↗ \
-4 5 6  ← ⏎ → \
-1 2 3  ↙ ↓ ↘ \
-  '''
-- Alternatively for player 2, first press '''t''' to toggle two control mode
-'''
-q w e    ↖ ↑ ↗ \
-a s d f  ← ↓ → ⏎\
-z   c    ↙   ↘ \
-  '''
-- 
+- use numpad for directions with <kbd>5</kbd> as enter or select square
+<pre>
+<kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd>  ↖ ↑ ↗ 
+<kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd>  ← ⏎ → 
+<kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd>  ↙ ↓ ↘ 
+</pre>
+
+- Alternatively for player 2, first press t''' to toggle two control mode\
+<pre>
+q w e    ↖ ↑ ↗
+a s d f  ← ↓ → ⏎
+z   c    ↙   ↘
+</pre>
+
+- '''
 
 ## Features
 - supports all the basic rules like castling, en-passant etc properly.
