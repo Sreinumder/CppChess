@@ -1,5 +1,5 @@
 ﻿# Cppchess
- A very basic cpp TUI chess game.
+ A very basic cpp TUI chess game implementation.
  
 ## Controls
 - use numpad for directions with 5 as enter or select square
@@ -29,7 +29,7 @@ z   c    ↙   ↘
 - [ ] local leaderboard
 - [ ] Train AI chess-bots with recursive move searches
 
-## screenshots:
+## Screenshot
 ![game](assets/game.png)
 
 ## Installation
