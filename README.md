@@ -32,6 +32,9 @@ z   c    ↙   ↘
 - [ ] local leaderboard
 - [ ] Train AI chess-bots with recursive move searches
 
+## Requirements
+[Visual Studio 2022 community version](https://visualstudio.microsoft.com/vs/community/) with g++ and MSVC compiler.
+
 ## Installation
 ### On Windows
 Please use! [Windows Terminal](https://github.com/microsoft/terminal) for proper Text rendering.
@@ -39,3 +42,5 @@ Then, You can Download the [Latest Release](https://github.com/Sreinumder/cppche
 
 ### On Linux or MacOs
 Not supported yet :(
+
+ik this project is kinda mess ngl. I wrote it on whim for college side project within 2-3 days. I will probably rewrite this in more cross-platform friendly environment. I might try rust idk. Anyway I did had blast coming up with the strategies for generating possible moves for given piece at any given scenario and realizing a [hilarious bug].
