@@ -43,4 +43,5 @@ Then, You can Download the [Latest Release](https://github.com/Sreinumder/cppche
 ### On Linux or MacOs
 Not supported yet :(
 
+## Sidenote
 ik this project is kinda mess ngl. I wrote it on whim for college side project within 2-3 days. I will probably rewrite this in more cross-platform friendly environment. I might try rust idk. Anyway I did had blast coming up with the strategies for generating possible moves for given piece at any given scenario and realizing a [hilarious bug].
