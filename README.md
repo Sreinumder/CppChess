@@ -1,6 +1,9 @@
 ﻿# Cppchess
  A very basic cpp TUI chess game implementation.
  
+## Screenshot
+![game](assets/game.png)
+ 
 ## Controls
 - Use numpad for directions with 5 as enter or select square
 <pre>
@@ -28,9 +31,6 @@ z   c    ↙   ↘
 - [ ] save and load games on standard file format
 - [ ] local leaderboard
 - [ ] Train AI chess-bots with recursive move searches
-
-## Screenshot
-![game](assets/game.png)
 
 ## Installation
 ### On Windows
