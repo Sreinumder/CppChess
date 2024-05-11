@@ -1,5 +1,5 @@
 ﻿# Cppchess
- A very basic cpp TUI chess game implementation.
+ A very basic two player c++ TUI chess game implementation.
  
 ## Screenshot
 ![game](assets/game.png)
